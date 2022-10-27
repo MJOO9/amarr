@@ -7,8 +7,8 @@ public interface HomePageElements {
 	String amarrLogoXpath = "//img[@loading='lazy' and @alt='Amarr Garage Doors']";
 	String iAmADealerXpath = "//a[@class='body-text3'][contains(text(),'I’m a dealer')]";
 	String garageDoorXpath = "//a[contains(text(),'Garage Doors')]";
-	String comercialDoorXpath = "//a[contains(text(),'Commercial Doors')]";
-	String wherToBuyXpath="//a[contains(text(),'Where to Buy')]";
+	String commercialDoorXpath = "//a[contains(text(),'Commercial Doors')]";
+	String whereToBuyXpath="//a[contains(text(),'Where to Buy')]";
 	String designYourGarageDoorXpath="//a[contains(text(),'Design Your Garage Door')]";
     String supportXpath="//li/a[text()='Support' and @class='nav-link amarr-h6']";
     
