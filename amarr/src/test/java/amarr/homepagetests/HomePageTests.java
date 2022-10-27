@@ -16,6 +16,7 @@ public class HomePageTests extends BaseTests {
 	
 	
 	@Test(testName = "Amarr Logo and url verification tests")
+	Run | Debug
 	public void tc_1() {
 		
 		HomePageEvents home=new HomePageEvents();
@@ -30,6 +31,7 @@ public class HomePageTests extends BaseTests {
 	
 	
 	@Test(testName = "Login with valid id ")
+	Run | Debug
 	public void tc_2() {
 	
      HomePageEvents home=new HomePageEvents();
@@ -43,6 +45,7 @@ public class HomePageTests extends BaseTests {
 	}
 	
 	@Test(testName = "Login with invalid id ")
+	Run | Debug
 	public void tc_3() {
 	
      HomePageEvents home=new HomePageEvents();
@@ -58,6 +61,7 @@ public class HomePageTests extends BaseTests {
 	
 	
 	@Test(testName = "login with an invalid credential")
+	Run | Debug
 	public void tc_4() {
 		HomePageEvents home = new HomePageEvents();
 		home.clickRejectCookies();
